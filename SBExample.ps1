@@ -6,13 +6,13 @@ $PrePackages = @(
 
 # Parallel package list. Multiple items within nested arrays will be installed serially
 $Packages = @(
-    @("linqpad"),
-    @("vscode",	"vscode-powershell"),
+    @("chocolateygui"),
+    @("nirlauncher"),
+    @("sysinternals"),
     @("git"),
-    @("docker-cli"),
+    @("vscode",	"vscode-powershell"),
     @("firefox"),
-    @("procexp"),
-    @("conemu"),
+    @("microsoft-windows-terminal"),
     @("notepadplusplus")
 )
 Write-Verbose "Starting stopwatch..." -Verbose
